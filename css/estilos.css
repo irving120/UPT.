@@ -1,0 +1,138 @@
+html{
+    scroll-behavior: smooth;
+}
+p[id]{
+    scroll-margin-top: 65px;
+}
+.d{
+    float: right;
+    text-align: justify;
+    font-family: tex2;
+}
+.i{
+    float: left;
+    text-align: justify;
+    font-family: tex2;
+}
+.tamaño{
+    width: 75%;
+}
+body{
+    background-color:honeydew;
+}
+.static{
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+}
+.barrainicio{
+    border-radius: 20px;
+    background-color:wheat;
+    width: 75%;/*tamaño de la barra de navegacion*/
+    padding: 0px;
+    overflow:hidden;
+    box-shadow: 10px 5px 40px rgb(97, 167, 134);
+}
+.separarini{
+    text-decoration: none;
+    color: black;
+    float: right;
+    padding: 2px;
+    margin: 10px;
+}
+.separaricon1{
+    float:left;
+    padding-left: 2px;
+    padding-top: 0px;
+}
+.link{
+    display:inline-block;
+    text-transform: uppercase;
+    border: 0px;
+    color: black;
+    text-decoration: none;
+}
+.link:hover{
+    background-color:seashell;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.navegar{
+    display: flex;
+    justify-content:center;
+}
+.separacionsubt{
+    width: 75%;
+    text-align: left;
+    font-family: tex1;
+    
+    
+}
+.separaciontex{
+    font-family: tex2;
+    width: 75%;
+    text-align: justify;
+    
+}
+.img1{
+    border-radius: 20px;
+    box-shadow: 20px 10px 40px rgb(97, 167, 134);
+}
+#insta{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    margin: 5%;
+    grid-gap: 30px;
+}
+#insta img{
+    border-radius: 20px;
+    box-shadow: 20px 10px 40px rgb(97, 167, 134);
+    width: 100%;
+    transition: all 300ms;
+}
+#insta img:hover{
+    transform: scale(1.08);
+}
+textarea{
+    width: 75rem;
+    height: 100px;
+    resize: none;
+    background-color:floralwhite;
+    border-radius: 10px;
+}
+input{
+    background-color:floralwhite;
+    border-radius: 5px;
+    width: 250px;
+    height: 35px;
+}
+.conc{
+    color:black;
+}
+.num{
+    display:inline-block;
+    text-transform: uppercase;
+    border: 0px;
+    color: black;
+    text-decoration: none;
+    transition: all 600ms;
+}
+.num:hover{
+    transform: scale(1.4);
+    color:dimgrey;
+}
+@font-face {
+    font-family: tex1;
+    src: url(Roots.ttf);
+}
+.tex1{
+    font-family: tex1;
+}
+@font-face {
+    font-family: tex2;
+    src: url(infinity.otf);
+}
+.tex2{
+    font-family: tex2;
+}
